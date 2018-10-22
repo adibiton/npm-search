@@ -8,10 +8,10 @@ const defs = {
 
 function db(environment) {
     const env = require('./env')(environment);
-    mongoose.connect(defs[env].connection, () => {
+    mongoose.connect(defs[env].connection, {useNewUrlParser: true}, () => {
         console.log(`mongodb connected to ${env} environment`);
     });
     return mongoose;
 }
- 
+
 module.exports = db;

@@ -4,20 +4,21 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "mocha **/*.spec.js"
+    "test": "mocha **/*.spec.js",
+    "start": "node app.js"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "should": "^11.1.2"
+    "should": "~13.2.3"
   },
   "dependencies": {
-    "body-parser": "^1.15.2",
-    "express": "^4.14.0",
-    "mongoose": "^4.7.5",
-    "request": "^2.79.0",
-    "sinon": "^1.17.6",
-    "sinon-stub-promise": "^4.0.0"
+    "body-parser": "~1.18.3",
+    "express": "~4.16.4",
+    "mongoose": "~5.3.5",
+    "request": "~2.88.0",
+    "sinon": "~7.0.0",
+    "sinon-stub-promise": "~4.0.0"
   }
 }

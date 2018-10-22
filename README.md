@@ -1,3 +1,3 @@
 # npm-search
 
-##Web service that exposes npm package dependencies
+A simple Web service that exposes npm package dependencies
